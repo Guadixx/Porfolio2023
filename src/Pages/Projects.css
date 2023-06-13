@@ -1,4 +1,4 @@
-.projects-grid{
+.projects-flex{
     display: flex;
     height: 57rem;
     width: 80%;
@@ -74,7 +74,7 @@ figure:hover{
     
 }
 @media screen and (max-width: 1000px){
-    .projects-grid{
+    .projects-flex{
         margin: 2rem auto;
         padding-bottom: 3rem;
         height: auto;

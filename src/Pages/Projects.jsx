@@ -2,7 +2,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="projects-grid">
+    <div className="projects-flex">
       <figure>
         <div className="text">
           <h3>Test Busters</h3>
