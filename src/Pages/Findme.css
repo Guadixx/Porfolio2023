@@ -1,0 +1,25 @@
+.webs, .skills, .currently{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 70%;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.webs{
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-prof > p{
+    font-size: 1rem;
+    font-weight: 600;
+}
