@@ -75,10 +75,10 @@ figure > .techs {
     border-radius: 1rem;
 }
 
-figure:hover {
+/* figure:hover {
     transform: scale(1.03);
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.448);
-}
+} */
 
 @media screen and (max-width: 1000px) {
     .projects-flex {

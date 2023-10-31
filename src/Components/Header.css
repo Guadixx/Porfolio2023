@@ -13,7 +13,7 @@ header {
 /* Estilos para los enlaces en el menú de navegación */
 header > nav > a {
     color: white;
-    margin: 20px; /* Espaciado entre los enlaces */
+    margin: 20px; /* Espaciado etre los enlaces */
     letter-spacing: 2px;
 }
 

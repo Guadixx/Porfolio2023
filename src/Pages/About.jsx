@@ -54,26 +54,26 @@ const About = () => {
         </div>
       </div>
       <div className="services_container">
-        <div className="ux_container">
-          <img
-            src="https://res.cloudinary.com/dpidlverd/image/upload/v1698686428/replica/11aa245284fe7cd71c33272d37451875_osjqz2.jpg"
-            alt="ux illustration"
-          ></img>
-          <h2>UX/UI design</h2>
-          <p>
-            {" "}
-            I am a passionate UX/UI designer focused on creating meaningful and
-            engaging digital experiences. My primary goal is to combine
-            functionality with visual appeal, prioritizing the user experience
-            at every stage of the design process.
-          </p>
-        </div>
         <div className="developer_container">
           <img
-            src="https://res.cloudinary.com/dpidlverd/image/upload/v1698687225/replica/fcba22493ea89b1b355277ec61a38eee_vfxzsw.jpg"
+            src="https://res.cloudinary.com/dpidlverd/image/upload/v1698767659/replica/7b52197ad5474687f107fcaae4e9b49c-removebg-preview_ztnvk7.png"
             alt="developer illustration"
           ></img>
           <h2>Full Stack Developer</h2>
+          <p>
+            {" "}
+            I am a passionate full-stack developer with a strong focus on
+            building user-friendly and visually appealing web applications.
+            Focused in responsive design and accessibility, and I am always
+            looking for new ways to improve the user experience.
+          </p>
+        </div>
+        <div className="ux_container">
+          <img
+            src="https://res.cloudinary.com/dpidlverd/image/upload/v1698767143/replica/11aa245284fe7cd71c33272d37451875-removebg-preview_km2hw4.png"
+            alt="ux illustration"
+          ></img>
+          <h2>UX/UI design</h2>
           <p>
             {" "}
             I am a passionate UX/UI designer focused on creating meaningful and
@@ -114,6 +114,12 @@ const About = () => {
             <img
               src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png"
               alt="HTML5 icon"
+            />
+          </abbr>
+          <abbr title="FIGMA">
+            <img
+              src="https://res.cloudinary.com/dpidlverd/image/upload/v1698768315/replica/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024_zfizhw.png"
+              alt="Figma icon"
             />
           </abbr>
           <abbr title="CSS3">

@@ -65,7 +65,7 @@ const Hangman = () => {
       <h1>Hangman Game</h1>
       <div className="imagecustom_container">
         <img
-          src="https://res.cloudinary.com/dpidlverd/image/upload/v1698761582/replica/b4e7f795145683f32d5b3fb017404fa3_k1qkuk.gif"
+          src="https://res.cloudinary.com/dpidlverd/image/upload/v1698769731/replica/db23518eb222a30814f71385f59200f3-removebg-preview_rtkrhk.png"
           alt="game illustration"
         ></img>
         <div className="customgame_container">

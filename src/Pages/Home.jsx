@@ -9,7 +9,7 @@ const Home = () => {
           alt="avatar"
         ></img>
         <h1>Guadalupe Doudchitzky Amadeo</h1>
-        <h4>I am a front-end developer and a UX/UI designer</h4>
+        <h4>I am a front-end developer and  UX/UI designer</h4>
         <div className="links_container">
           <a href="https://www.linkedin.com/in/guadalupedoudchitzkyamadeo/">
             <img
