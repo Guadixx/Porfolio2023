@@ -1,0 +1,29 @@
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #323150;
+    padding: 10px; /* Reducir el espaciado interno del encabezado */
+    max-width: 100%; /* Ancho máximo del encabezado */
+    margin: 0 auto; /* Centrar el encabezado */
+    box-shadow:0 2px 4px rgba(0,0,0, .40);
+}
+
+/* Estilos para los enlaces en el menú de navegación */
+header > nav > a {
+    color: white;
+    margin: 20px; /* Espaciado entre los enlaces */
+    letter-spacing: 2px;
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 5px; /* Reducir más el espaciado interno */
+    }
+
+    header > nav > a {
+        margin: 5px; /* Reducir el espaciado entre los enlaces */
+    }
+}
