@@ -2,28 +2,45 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #323150;
-    padding: 10px; /* Reducir el espaciado interno del encabezado */
-    max-width: 100%; /* Ancho máximo del encabezado */
-    margin: 0 auto; /* Centrar el encabezado */
-    box-shadow:0 2px 4px rgba(0,0,0, .40);
+    justify-content: space-between; /* Cambiado de 'center' a 'space-between' */
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 /* Estilos para los enlaces en el menú de navegación */
 header > nav > a {
-    color: white;
-    margin: 20px; /* Espaciado etre los enlaces */
+    color: #232323;
+    margin: 0 15px; /* Reducido el margen horizontal */
     letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+
+header > nav > a:hover {
+    content: attr(data-text);
+    border-bottom: 1.5px solid black;
+    color: #232328;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .1s;
 }
 
 /* Media Query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     header {
-        padding: 5px; /* Reducir más el espaciado interno */
+        flex-direction: column; /* Cambiado de 'row' a 'column' */
+        align-items: center;
+        justify-content: center;
+    }
+
+    header > nav {
+        margin-top: 10px; /* Añadido margen superior */
     }
 
     header > nav > a {
-        margin: 5px; /* Reducir el espaciado entre los enlaces */
+        margin: 10px 0; /* Añadido margen vertical y eliminado el horizontal */
     }
 }

@@ -17,4 +17,13 @@ a {
   text-decoration: inherit;
 }
 
+body {
+  overflow-x: hidden;
+}
 
+
+@media screen and (max-width: 1000px) {
+  /* Ajustes específicos para pantallas pequeñas */
+  body {
+    overflow-x: hidden;
+  }}

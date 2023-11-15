@@ -31,6 +31,11 @@ figure > .text {
     text-align: justify;
 }
 
+figure > .text > h3{
+    font-size: 1.4rem;
+}
+
+
 figure > .techs {
     width: 100%;
     height: auto;
@@ -40,6 +45,7 @@ figure > .techs {
     gap: 0.5rem;
     text-align: start;
 }
+
 .chattigo_container{
     display: flex;
     flex-direction: row;
@@ -74,12 +80,6 @@ figure > .techs {
     width: 100%;
     border-radius: 1rem;
 }
-
-/* figure:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.448);
-} */
-
 @media screen and (max-width: 1000px) {
     .projects-flex {
         margin: 2rem auto;

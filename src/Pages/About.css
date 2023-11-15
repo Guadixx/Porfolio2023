@@ -1,213 +1,57 @@
-.aboutme_container{
-    display: flex;
-    flex-direction: row;
+.home_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
-.aboutme_avatar{
-    margin:1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #323150;
-    letter-spacing: 0.4px;
-    font-weight: 500;
-}
-.aboutme_avatar > img{
-    border-radius: 50%;
-    width: 10rem;
+.home_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #232323;
+  margin: 2rem; /* Reducido el margen */
+  background-color: #FBFCFC;
+  max-width: 100%; /* Ancho máximo del contenedor */
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .40);
 }
 
-.about{
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    color: #323150;
-
-}
-.about > h2{
-    font-size: 1.3rem;
-}
-.aboutme_content{
-    box-shadow:0 2px 4px rgba(0,0,0, .40);
-    padding: 2rem;
-    border-radius: 10px;
+.home_container > img {
+  border-radius: 50%;
+  margin: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
 }
 
-.button_cv{
-    background-color: #E0435E ;
-    border: none;
-    padding: 1rem;
-    border-radius:15px;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-weight: 650;
-    color:white;
-    cursor: pointer;
+.home_container > h1 {
+  font-size: 2rem;
+  letter-spacing: 0.8px;
+  font-weight: 600;
 }
 
-.button_cv:hover{
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+.home_container > h4 {
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  font-weight: 500;
 }
 
-.services_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
+.links_container {
+  display: flex;
+  flex-direction: row; /* Cambiado a columna para mejor responsividad */
+  align-items: center; /* Centrado en dispositivos más pequeños */
+  margin-top: 1rem; /* Añadido margen superior */
 }
 
-.ux_container{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    background-color: #6869DE;
-    border-radius: 10px;
-    box-shadow:0 2px 4px rgba(0,0,0, .40);
-    margin: 2rem;
-    transition: all ease-in-out 0.4s;
+.links_container > a > img {
+  width: 45px;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0); /* Cambiado a 0 para desactivar la sombra */
 }
 
-/* .ux_container:hover{
-    transform: scale(1.03);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.448);
-} */
-
-.ux_container > img{
-    width: 60%;
-}
-
-.ux_container > p{
-    font-size: 1rem;
-    margin: 1rem;
-    font-weight: 500;
-}
-
-.developer_container{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    background-color:#bd6476;
-    border-radius: 10px;
-    box-shadow:0 2px 4px rgba(0,0,0, .40);
-    transition: all ease-in-out 0.4s;
-    
-}
-
-/* .developer_container:hover{
-    transform: scale(1.03);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.448);
-} */
-
-.developer_container > img{
-    width: 68%;
-}
-
-.developer_container > p{
-    font-size: 1rem;
-    margin: 1rem;
-    font-weight: 500;
-}
-.webs, .skills, .currently{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 70%;
-    padding: 1rem;
-    text-transform: uppercase;
-    border-radius: 4px;
-}
-.links-prof{
-    display: flex;
-    gap: 1rem;
-}
-.links-prof> a> img, .technologies > abbr> img{
-    width: 80px;
-    height: 50px;
-    object-fit: contain;
-}
-.technologies{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem;
-
-}
-.technologies >abbr>  img{
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-}
-@media screen and (max-width: 1000px){
-    .about{
-        width: 100%;
-        margin: 1rem 0;
-        padding: 4rem;
-    }
-    .webs, .skills, .currently{
-        padding: 1rem;
-        width: 90%;
-    }
-}
-
-/* Estilos previos existentes... */
-
-/* Modificaciones para mejor responsividad */
-@media screen and (max-width: 1000px){
-    .aboutme_container{
-        flex-direction: column;
-    }
-
-    .aboutme_avatar {
-        margin: 1rem 0;
-        text-align: center;
-    }
-
-    .about {
-        padding: 2rem;
-    }
-
-    .services_container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ux_container,
-    .developer_container {
-        width: 80%; /* Ajuste de tamaño para ocupar más ancho en pantallas pequeñas */
-        margin: 1rem 0;
-    }
-
-    .webs,
-    .skills,
-    .currently {
-        width: 90%;
-        padding: 2rem;
-    }
-
-    .links-prof > a > img,
-    .technologies > abbr > img {
-        width: 60px; /* Reducción del tamaño de las imágenes */
-        height: 40px;
-    }
-
-    .technologies > abbr > img {
-        width: 50px;
-        height: 50px;
-    }
+/* Estilo hover para los íconos en el contenedor de enlaces */
+.links_container > a > img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
