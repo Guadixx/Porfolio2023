@@ -1,0 +1,416 @@
+.porfolio_container {
+    display: flex;
+    flex-direction: row;
+  box-sizing: border-box;
+  
+  }
+  
+  .aboutMe_container {
+    position: sticky;
+    top: 0; /* Mantén el contenedor en la parte superior */
+    width: 60%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .aboutMe_container > h1 {
+    font-size: 26px;
+    line-height: 40px;
+    margin: 0px 0px 16px;
+    text-align: left;
+    color: #eeafba;
+  }
+  
+  .aboutMe_container > img {
+    border-radius: 50%;
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+    margin: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  }
+  
+  .aboutMe_container > h4 {
+    align-items: center;
+    text-align: start;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .aboutMe_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto; /* Permite que el contenido se desplace si es necesario */
+    height: 100%; /* Ocupa el 100% de la altura disponible */
+  }
+  .links_container {
+    display: flex;
+    flex-direction: row; /* Cambiado a columna para mejor responsividad */
+    align-items: center; /* Centrado en dispositivos más pequeños */
+    margin-top: 1rem; /* Añadido margen superior */
+  }
+  
+  .links_container > a > img {
+    width: 45px;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0); /* Cambiado a 0 para desactivar la sombra */
+  }
+  
+  .text_container {
+    margin: 1rem;
+    color: aliceblue;
+    padding: 10px;
+    box-sizing: border-box;
+  
+  }
+  
+  .text_container > button {
+    background: none;
+    color: #f09dab;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0); /* Cambiado a 0 para desactivar la sombra */
+  }
+  
+  .text_container > button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .table_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 68%;
+    border-radius: 13px;
+    margin:0;
+    padding: 10px;
+    box-sizing: border-box; 
+  }
+  
+  .table_container > h1 {
+    
+    align-self: flex-start; /* Alinea "Skills" en la esquina superior izquierda */
+    margin: 0px 4px; /* Ajusta el margen para alinear con las otras secciones */
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  th {
+    text-align: start; /* Alinea el texto a la izquierda */
+    padding: 8px 12px 0px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  td {
+    text-align: start;
+    padding: 8px 12px 0px 14px;
+    gap: 4px;
+    font-size: 12px;
+  
+  }
+  
+  .experience_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    max-width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .experience_container > h1 {
+    align-self: flex-start; /* Alinea "Skills" en la esquina superior izquierda */
+    margin: 8px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .experience_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 12px;
+  }
+  
+  .experience_content > h4 {
+    margin: 24px 8px;
+    font-weight: 400;
+    font-size: 12px;
+    width: 55%;
+  }
+  
+  .experience_box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience_box > h4 {
+    margin: 12px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .experience_box > p {
+    margin: 12px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .technologies_div {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+  }
+  
+  .technologies_div > p {
+    font-size: 12px;
+    border: 1.8px solid #f09dab;
+    color: #f09dab;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+  }
+  
+  .proyects_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 73%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .proyects_container > h1 {
+    align-self: flex-start; /* Alinea "Skills" en la esquina superior izquierda */
+    margin: 0px 8px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .proyects_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(28, 27, 27);
+    padding: 12px;
+    border-radius: 12px;
+    align-items: center;
+    width: 93%;
+    margin: 12px;
+  }
+  
+  .proyects_content:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .proyects_content > img {
+    width: 50%; /* Ajusta el ancho de la imagen según tus preferencias */
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }
+  
+  .proyects_box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .proyects_box > h4 {
+    margin: 12px;
+    margin-left: 18px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .proyects_box > p {
+    margin: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 18px;
+  }
+  
+  .technologies_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-eve;
+    margin-left: 18px;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+  .technologies_div > p {
+    font-size: 12px;
+    border: 1.8px solid #f09dab;
+    color: #f09dab;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Reglas para dispositivos móviles */
+  
+    body {
+      overflow-x: hidden;
+    }
+  
+    .porfolio_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .aboutMe_container {
+      width: 100%;
+      height: auto;
+      position: static;
+      text-align: center;
+    }
+  
+    .aboutMe_container > h1 {
+        margin-top: 20px;
+      font-size: 18px; /* Ajuste de tamaño de título */
+      line-height: 26px; /* Ajuste de altura de línea */
+    }
+  
+    .aboutMe_container > h4 {
+      font-size: 14px;
+      line-height: 20px;
+      margin: 8px;
+      text-align: center;
+    }
+    
+    .aboutMe_container > img {
+      width: 70%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;
+      margin: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+  
+    .links_container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 1rem;
+    }
+  
+    .links_container > a > img {
+      width: 30px;
+      margin: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    }
+  
+    .text_container {
+      margin: 1rem;
+      color: aliceblue;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 14px;
+      margin-left: 10%; /* Ajusta el margen izquierdo según tus preferencias */
+      margin-right: 10%;
+      margin-top: 0;
+    }
+  
+    .text_container > button {
+      padding: 0.8rem;
+      font-size: 12px;
+    }
+    .table_container {
+      overflow-x: auto;
+      width: 75%;
+    }
+  
+    .table_container > h1{
+      font-size: 20px;
+      margin-bottom:10px;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    th{
+      padding: 3px;
+      font-size: 11px;
+      text-align: left;
+    }
+    td {
+      padding: 4px;
+      font-size: 10px;
+      text-align: left;
+    }
+    .proyects_container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin:0;
+      padding: 0;
+    }
+  
+    .proyects_container > h1{
+      font-size: 20px;
+    }
+    .proyects_content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .proyects_content > img{
+      height: 200px;
+      width: auto;
+    }
+  
+    .experience_container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .experience_container > h1{
+      font-size: 20px;
+    }
+    .experience_content{
+      width: 120%;
+    }
+  }
