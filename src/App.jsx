@@ -60,7 +60,7 @@ function App() {
           <p>
             {" "}
             🧉 On my free time you can find me doing anything art related like
-            music, painting or watching movies and cinema.
+            music, painting, watching movies or playing The Sims.
           </p>
           <p> Hope we can meet soon.</p>
           <button className="button_cv" onClick={handleDownload} >
@@ -68,56 +68,32 @@ function App() {
             <DownloadIcon className="icon-style" />
           </button>
         </div>
-        <div className="table_container">
+        <div className="skills__container">
           <h1>Skills</h1>
-          <div className="table_content">
-            <table>
-              <thead>
-                <tr>
-                  <th>Language</th>
-                  <th>Framework</th>
-                  <th>Tools</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>JavaScript</td>
-                  <td>React</td>
-                  <td>Docker</td>
-                </tr>
-                <tr>
-                  <td>TypeScript</td>
-                  <td>Angular (11,12,16)</td>
-                  <td>Git & Github</td>
-                </tr>
-                <tr>
-                  <td>HTML</td>
-                  <td>Node.js</td>
-                  <td>SASS</td>
-                </tr>
-                <tr>
-                  <td>CSS</td>
-                  <td>Express</td>
-                  <td>Postman</td>
-                </tr>
-                <tr>
-                  <td>PYTHON</td>
-                  <td>Bootstrap</td>
-                  <td>MongoDB</td>
-                </tr>
-
-                <tr>
-                  <td></td>
-                  <td>Wordpress</td>
-                  <td>FIgma</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td>Canva</td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="skills__content">
+            <p>Angular (11,12,16 & 17)</p>
+            <p>React (16 & 17)</p>
+            <p>Javascript</p>
+            <p>Typescript</p>
+            <p>Python</p>
+            <p>HTML5</p>
+            <p>CSS</p>
+            <p>SASS</p>
+            <p>Node.js</p>
+            <p>Express.js</p>
+            <p>MongoDB</p>
+            <p>Github</p>
+            <p>Firebase Auth.</p>
+            <p>Firestore</p>
+            <p>Cloud Run</p>
+            <p>Cloud Datastore</p>
+            <p>Docker</p>
+            <p>Fast API</p>
+            <p>Bootstrap</p>
+            <p>Material UI & Angular Material</p>
+            <p>NPM</p>
+            <p>Nginx</p>
+            <p>Postman</p>
           </div>
         </div>
         <div className="experience_container">
@@ -128,7 +104,7 @@ function App() {
               <h4>Frontend developer & UI designer</h4>
               <p>
                 {" "}
-                Currently, involved in developing, designing and maintaining applications using Angular 11, 12, 16, Sass, CSS, HTML and Typescript. Collaborating with backend developers. Developing applications focused on scanning and validating QR codes. Engaged in continuous learning of technologies.   
+                Refactored Exyts accredited management area and the QR code management app, improved UX/UI and enhanced developer experience by creating a design system  
               </p>
               <div className="technologies_div">
                 <p>Angular</p>
@@ -136,6 +112,9 @@ function App() {
                 <p>Javascript</p>
                 <p>Figma</p>
                 <p>Docker</p>
+                <p>Firebase</p>
+                <p>Firestore</p>
+                <p>Nginx</p>
                 <p>Postman</p>
                 <p>Python</p>
                 <p>Google Cloud Datastore</p>
@@ -146,12 +125,10 @@ function App() {
           <div className="experience_content">
             <h4>May 2023 - August 2023</h4>
             <div className="experience_box">
-              <h4>Front end Engineer Trainee - Chattigo</h4>
+              <h4>Frontend devloper - Chattigo</h4>
               <p>
                 {" "}
-                Actively participating in identifying, resolving, and performing
-                code revisions and bug fixes to ensure optimal performance and
-                user experience.
+                Maintaining and adding new functionalities into our corporate site
               </p>
               <div className="technologies_div">
                 <p>Angular</p>
@@ -165,28 +142,26 @@ function App() {
         <div className="proyects_container">
           <h1>Proyects</h1>
           <a
-          
+                href="https://natours-pi-orpin.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
           >
           <div className="proyects_content">
               <img
                 className="images_tb"
-                src="https://res.cloudinary.com/dpidlverd/image/upload/v1721489945/replica/Captura_de_pantalla_2024-07-20_a_las_17.39.02_vamjh9.png"
+                src="https://res.cloudinary.com/dpidlverd/image/upload/v1725382206/Captura_de_pantalla_2024-09-03_a_las_18.47.32_nd2riy.png"
                 alt="TestBusters mockup"
                 loading="lazy"
               />
               <div className="proyects_box">
-                <h4>Cheapsify (Coming soon)</h4>
+                <h4>Natours</h4>
                 <p>
-                Cheapsify is your ultimate grocery shopping companion. This app compares supermarket prices in your vicinity, helping you find the cheapest options effortlessly. By analyzing real-time data from nearby stores, Cheapsify ensures you get the best deals and save money on your groceries. 
+                Project focused solely on web design, fully responsive and adaptable to all devices. The purpose of this project is to build an entire application using only pure HTML, CSS and SASS, without any libraries and without Flexbox. 
                 </p>{" "}
                 <div className="technologies_div">
-                  <p>Figma</p>
-                  <p>Javascript</p>
-                  <p>React</p>
-                  <p>Node</p>
-                  <p>Express</p>
-                  <p>MongoDB</p>
-                  <p>Mongoose</p>
+                  <p>HTML5</p>
+                  <p>CSS</p>
+                  <p>SASS</p>
                 </div>
               </div>
             </div>

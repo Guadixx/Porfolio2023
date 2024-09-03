@@ -124,7 +124,7 @@
     vertical-align: middle;
   }
   
-  .table_container {
+  /* .table_container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -134,46 +134,50 @@
     border-radius: 13px;
     margin:1rem;
     padding: 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
     /* border: 2px solid blue; */
+  /* } */
+
+  .skills__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+    /* margin: 3rem; */
+    box-sizing: border-box;
+
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  .skills__content {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+    flex-wrap: wrap;
+
+    p{
+      font-size: 1,6rem;
+      border: 0.18rem solid #f09dab;
+      font-weight: 600;
+      color: #f09dab;
+      padding: 4px;
+      margin: 4px;
+      border-radius: 4px;
+    }
   }
   
-  .table_container > h1 {
-    align-self: flex-start;
-    /* margin: 0px 4px;  */
-    font-size: 24px;
-    font-weight: 700;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    overflow-x: auto;
-    white-space: nowrap;
-    margin:0;
-  }
-  
-  th {
-    text-align: start; /* Alinea el texto a la izquierda */
-    padding: 8px 12px 0px 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 16px;
-  }
-  
-  td {
-    text-align: start;
-    padding: 8px 12px 0px 14px;
-    gap: 4px;
-    font-size: 16px;
-  
-  }
+
   
   .experience_container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
     margin: 1rem;
     max-width: 70%;
     padding: 10px;
@@ -183,6 +187,7 @@
   
   .experience_container > h1 {
     align-self: flex-start; 
+    flex-wrap: wrap;
     /* margin: 8px; */
     font-size: 24px;
     font-weight: 700;
@@ -254,6 +259,7 @@
     align-items: center;
     /* width: 93%; */
     margin: 12px;
+    border: 2px solid blue;
   }
   
   .proyects_content:hover {
@@ -275,7 +281,7 @@
     justify-content: space-around;
 
     height: 200px;
-    margin-left:24px
+    margin-left:24px;
   }
   
   .proyects_box > h4 {
@@ -380,49 +386,19 @@
       padding: 0.8rem;
       font-size: 12px;
     }
-    .table_container {
-      overflow-x: auto;
-      /* width: 75%; */
-      /* border: 2px solid blue; */
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .table_container > h1{
-      font-size: 20px;
-      margin-bottom:10px;
-    }
-  
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      overflow-x: auto;
-      white-space: nowrap;
-    }
-    th{
-      padding: 3px;
-      font-size: 11px;
-      text-align: left;
-    }
-    td {
-      padding: 4px;
-      font-size: 10px;
-      text-align: left;
-    }
+ 
     .proyects_container{
       display: flex;
       align-items: center;
       justify-content: center;
-      margin:auto;
-      /* border: 2px solid blue; */
-      width: 100%;
-      padding: 1rem;
+      border: 2px solid blue;
+      max-width: 100%;
+      margin: 0 !important;
     }
   
     .proyects_container > h1{
-      font-size: 20px;
+      font-size: 24px;
+      margin-left: .5rem;
     }
     .proyects_content {
       width: 95%;
@@ -449,18 +425,14 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      /* border: 2px solid red; */
-      margin: auto;
-      width: 95% !important;
-    }
-
-    .experience_container {
-      width: 95%;
+      max-width: 100% !important;
     }
   
     .experience_content {
+      display: flex;
       flex-direction: column;
-      width: 100%;
+      flex-wrap: wrap;
+    
     }
   
     .experience_content > h4 {
@@ -469,13 +441,19 @@
     }
   
     .experience_box > h4 {
-      font-size: 14px;
+      font-size: 16px;
     }
   
     .experience_container > h1{
-      font-size: 20px;
+      font-size: 24px;
+
     }
-    .experience_content{
-      width: 120%;
+  
+    .skills__container {
+      margin: 2rem;
+    }
+
+    .skills__content > p {
+      font-size: 14px;
     }
   }
